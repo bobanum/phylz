@@ -1,0 +1,22 @@
+{
+  "name": "mime-types-browser",
+  "version": "0.0.3",
+  "description": "get mime types by file extensions in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmelenok/mime-types-browser.git"
+  },
+  "keywords": [
+    "mime"
+  ],
+  "author": "Mykyta Khmel",
+  "license": "ISC",
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "mime-types": "^2.1.12"
+  }
+}

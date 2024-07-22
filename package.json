@@ -3,11 +3,26 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
+        "laravel": "php artisan serve",
+        "go": "concurrently \"npm run laravel\" \"npm run dev\"",
         "build": "vite build"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-vue": "^4.0.0",
         "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^0.7.5",
-        "vite": "^4.0.0"
+        "sass": "^1.56.1",
+        "vite": "^4.0.0",
+        "vue": "^3.2.37"
+    },
+    "dependencies": {
+        "@jamescoyle/svg-icon": "^0.1.1",
+        "@mdi/js": "^7.2.96",
+        "@mdi/svg": "^7.2.96",
+        "concurrently": "^8.2.0",
+        "mime-types-browser": "^0.0.3",
+        "vue-axios": "^3.5.2"
     }
 }
